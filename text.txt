@@ -1,17 +1,10 @@
-# Initialize git if not already
-git init
+git status
 
-# Add all files
+# Add changes
 git add .
 
-# Commit
-git commit -m "Initial commit - Safar AI tourism project"
-
-# Connect your repo
-git remote add origin https://github.com/vanshsafe-site/safar-ai.git
-
-# Make sure you're on main branch
-git branch -M main
+# Commit with a message
+git commit -m "Updated Safar AI backend fixes for Vercel"
 
 # Push to GitHub
-git push -u origin main
+git push origin main
